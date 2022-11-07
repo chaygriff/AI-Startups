@@ -26,7 +26,6 @@ ai <- ai %>%
 
 ai$last_funding <- currency(ai$last_funding, digits = 0L)
 
-rsconnect::setAccountInfo(name='channingg', token='8D7D5575B5129DCE4235EF079980B76B', secret='DoVogGwHo20wKbaHpa9zMNLJgn8kPMYK/7ZC56FM')
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
